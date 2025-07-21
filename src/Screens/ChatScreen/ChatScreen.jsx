@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import MessagesList from '../../Components/MessagesList/MessagesList'
 import {NewMessageForm} from '../../Components/NewMessageForm/NewMessageForm'
 import { useParams } from 'react-router'
-import { getContactById } from '../../Services/ContactService'
+import { getContactById } from '../../services/contactService'
 
 
 const ChatScreen = () => {
