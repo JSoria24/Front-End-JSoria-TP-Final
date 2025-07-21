@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ContactList from '../../Components/ContactList/ContactList';
-import { getContactList } from '../../Services/ContactService';
+import { getContactList } from '../../services/contactService';
 
 
 
