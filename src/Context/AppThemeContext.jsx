@@ -28,5 +28,3 @@ const AppThemeContextProvider = ({children}) => {
 }
 
 export default AppThemeContextProvider
-
-redux
