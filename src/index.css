@@ -8,3 +8,13 @@
     font-family: "DM Sans", sans-serif;
     text-decoration: none;
 }
+
+
+.background-dark{
+    background-color: black;
+    color: white;
+}
+
+.BiBus{
+    color: red
+}

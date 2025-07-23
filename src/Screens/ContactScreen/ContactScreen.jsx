@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react';
 import ContactList from '../../Components/ContactList/ContactList';
 import { getContactList } from '../../services/contactService';
 import { ContactContext } from '../../Context/ContactContext';
+import ICONS from '../../constants/Icons';
 
 
 
@@ -14,7 +15,7 @@ const ContactScreen = () => {
     return (
         <div>
             <img src='/images/auto-rojo-2.jpg' width={100}/>
-            <h1>Mis contactos:</h1>
+            <h1>Mis contactos: <ICONS.BiBus className='bondi'/> </h1>
 
             <ContactList contacts={contactsState} />
         </div>
